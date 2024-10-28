@@ -1,0 +1,21 @@
+
+<html>
+  <head>
+    <!-- Load the library script -->
+    <script src="./library.js"></script>
+    <!-- Set custom CSS variables to style the library -->
+    <style type="text/css">
+      body {
+        --lib-primary: pink;
+        --lib-text: orange;
+      }
+    </style>
+    <script type="module">
+      // Render the library in the app div
+      Library.render(document.getElementById('app'));
+    </script>
+  </head>
+  <body>
+    <div id="app">
+  </body>
+</html>

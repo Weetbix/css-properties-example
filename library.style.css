@@ -1,0 +1,25 @@
+:root {
+  --primary: #007bff;
+  --text: #333;
+  --font-family: sans-serif;
+}
+
+h3, p, body, span {
+  font-family: var(--font-family);
+  color: var(--text);
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--text);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+iframe {
+  border: none;
+  display: block;
+  height: 100px;
+}
