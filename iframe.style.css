@@ -1,3 +1,4 @@
 body {
   font-family: var(--lib-font-family);
+  color: var(--lib-text);
 }
